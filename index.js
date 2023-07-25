@@ -5,6 +5,11 @@ console.log(random1)
 
 if(random>random1){
     document.querySelectorAll("h1")[1].style.display="none"
+}else if(random==random1){
+    document.querySelectorAll("h1")[1].style.display="none"
+    document.querySelectorAll("h1")[0].style.display="none"
+
+    document.getElementById("draw").style.display="block"
 }else
     document.querySelectorAll("h1")[0].style.display="none"
      
