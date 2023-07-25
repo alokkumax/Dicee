@@ -1,0 +1,66 @@
+body{
+    margin: 0PX;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(127, 255, 170);
+    justify-content: space-evenly;
+    gap: 2rem;
+    align-items: center;
+    height: 100vh;
+    margin-top: 0px;
+}
+.logoDiv span{
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.logoDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dice{
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+}
+.diceSec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 558px) {
+    .dice {
+      flex-direction: column;
+      gap:2rem
+    }
+    .diceSec > img{
+        width: 150px;
+    }
+  }
+  button {
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 25px;
+  }
+  button:hover{
+    background-color: #e0e0e0; /* Green */
+    border: none;
+    color: rgb(43, 43, 43);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 25px;
+    cursor: pointer;
+  }
