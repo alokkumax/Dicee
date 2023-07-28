@@ -36,6 +36,9 @@ body{
     display: none;
 }
 @media (max-width: 558px) {
+    .logoDiv span{
+        font-size: 2rem;
+    }
     .dice {
       flex-direction: column;
       gap:2rem
